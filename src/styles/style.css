@@ -1,0 +1,349 @@
+/** CSS STYLE **/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE8A02;
+    color: #fff;
+    font-weight: bold;
+    line-height: 160%;
+    padding: 12px 24px;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-family: 'Neucha', cursive;
+    font-size: 72px;
+    line-height: 86px; 
+    max-width: 700px;
+    margin-top: 100px;
+}
+h2 {
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+    line-height: 72px;
+}
+h3 {
+    font-size: 34px;
+    line-height: 40px;
+    font-family: 'Neucha', cursive;
+}
+.yellow {
+    color: #FE8A02;
+}
+header {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+header:before,
+.ikea-section:before,
+.optimization-section:before,
+.new-section::before,
+.hiperbola-section:before,
+.plan-section::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.header-top {
+    min-height: 470px;
+}
+.image-wrap {
+    position: absolute;
+    top: 55px;
+    right: -104px;
+}
+.image-wrap img {
+    max-height: 525px;
+    height: 100%;
+}
+
+
+.main-items {
+    display: flex;
+    margin: 0 -15px;
+}
+.main-item {
+    width: calc(50% - 30px);
+    margin: 0 15px;
+    
+}
+.main-item p {
+    margin: 0;
+}
+.main .btn {
+    margin-top: 40px;
+}
+
+
+.video-section {
+    position: relative;
+    height: 814px;
+    padding: 150px 0;
+}
+.text-center {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   text-align: center;
+  
+
+}
+.title-text-center  {
+    max-width: 100%; 
+    text-align: center;
+
+}
+.text {
+    text-align: justify;
+}
+.image-wrap-video {
+    position: absolute;
+    bottom: 108px;  
+    left: 50%;
+    transform: translateX(-50%);
+}
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.navigation-section {
+    background: #8d8c87;
+    padding: 100px 0;  
+}
+.navigation-section a {
+    display: block;
+    color:#2A2626;
+}
+.navigation-section a:hover {
+    color: #FFFFFF;
+    background-color: #FE8A02;
+}
+.navigation-section a:hover .yellow {
+    color: #FFFFFF;
+}
+
+.navigation-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;   
+}
+.navigation-item {
+    width: 308px;
+    background: #F5F4F0;
+    min-height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+    margin-bottom: 20px;     
+}
+.grey {
+    background: #8d8c87;
+    color: #fff;
+    width: 356px;
+    padding: 0;
+        
+}
+.title-h2 {
+    font-size: 34px;
+    line-height: 40px;
+    font-family: 'Neucha', cursive;
+}
+.title-h1 {
+    font-size: 52px;
+    line-height: 62px;
+    font-family: 'Neucha', cursive;
+}
+.title-h3 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #908D8B;
+}
+.title-h4 {
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 17px;
+    background: #B09A81;
+    color:#FFFFFF;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+
+}
+.numb {
+    font-size: 64px;
+    line-height: 1;
+    padding-bottom: 40px;
+    font-family: 'Neucha', cursive;
+}
+.ikea-section {
+   position: relative;
+   padding: 100px 0;
+}
+.ikea-container-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .ikea-container-item {
+     width: 50%;
+     padding: 10px;
+ }
+ .optimization-section,
+ .hiperbola-section  {
+     position: relative;
+     padding: 100px 0;
+     color: #fff;
+     background-color: #B09A81;
+     z-index: -2;
+
+ }
+ .optimization-items {
+     display: flex;
+     margin-bottom: 100px;
+ }
+ .optimization-item {
+     width: 50%;
+     padding: 10px;
+ }
+ .optimization-section .title-h4 {
+     background-color: #FFFFFF;
+     color:#B09A81;
+ }
+ .optimization-section .title-h3 {
+        color: #D7CCC0;
+ }
+ .new-section {
+    position: relative;
+    padding: 100px 0;
+ }
+ .new-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .new-item {
+     width: 50%;
+     padding: 10px;
+ }
+
+ 
+    
+
+
+.hiperbola-items {
+    display: flex;
+    margin-bottom: 100px;
+}
+.hiperbola-item {
+    width: 50%;
+    padding: 10px;
+}
+.hiperbola-section .title-h4 {
+    background-color: #FFFFFF;
+    color:#B09A81;
+}
+.hiperbola-section .title-h3 {
+       color: #D7CCC0;
+}
+
+
+ .plan-section {
+   position: relative;
+   padding: 100px 0;
+ }
+ .plan-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .plan-item {
+     width: 50%;
+     padding: 10px;
+     
+ }
+ .plan-item p {
+    margin-top: 0;
+ }
+ .footer-top {
+     color: #FFFFFF;
+     background-color: #42413C;
+     display: flex;
+     align-items: center;
+     padding: 0 55px;
+}
+.footer-top a {
+    color: #FFFFFF;
+}
+.footer-top-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-input {
+    padding: 15px;
+    border: none;
+    max-height: 50px;
+    min-width: 423px;
+}
+form .btn {
+    position: relative;
+    border: none;
+    max-height: 50px;
+    width: 70px;
+}
+form .btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../../projects-css-l1-cognitive-biases/images/send.svg);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+.rules {
+    font-size: 12px;
+    line-height: 19px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-bottom a {
+    color: #1085C5;
+}
+
+.form-group {
+    display: flex;
+    max-height: 50px;
+}
