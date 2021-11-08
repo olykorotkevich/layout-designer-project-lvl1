@@ -7,6 +7,9 @@ body {
     line-height: 25.6px;
     font-family: 'Open Sans', sans-serif;
 }
+img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
 a {
     text-decoration: none;
 }
@@ -85,7 +88,8 @@ header:before,
     margin-top: -3px;
 }
 .text-center h2,
-.optimization-item h2 {
+.optimization-item h2,
+.hiperbola-item h2 {
     line-height: 72px;
 }
 .image-wrap {
@@ -222,7 +226,7 @@ header:before,
     color: #FFFFFF;
     padding: 6px;
     margin-bottom: 20px;
-    margin-top: -6px;
+    margin-top: -9px;
   
 }
 .numb {
@@ -311,24 +315,43 @@ header:before,
     margin-bottom: 60px;
    
 }
-.new-item img {
-    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
-}
+
 
 .hiperbola-items {
     display: flex;
     margin-bottom: 100px;
 }
+.hiperbola-items-2 {
+    display: flex;
+
+}
+.hiperbola-item-2 {
+    margin-top: -12px;
+    margin-left: -10px;
+    margin-right: 12px;
+    width: 50%;
+    padding: 10px;
+}
+
 .hiperbola-item {
+    margin-top: -5px;
+    margin-left: -10px;
+    margin-right: 12px;
     width: 50%;
     padding: 10px;
 }
 .hiperbola-section .title-h4 {
     background-color: #FFFFFF;
     color:#B09A81;
+    margin-top: -16px;
 }
 .hiperbola-section .title-h3 {
        color: #D7CCC0;
+       margin-bottom: -53px;
+     
+}
+.hiperbola-section h2 {
+    margin-bottom: 32px;
 }
 
 
