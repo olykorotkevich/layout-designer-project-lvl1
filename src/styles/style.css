@@ -304,13 +304,15 @@ header:before,
      width: 50%;
      margin-right: 20px;
      padding-right: 30px;
-    
-    
+      
     }
 .new-item .h2 {
      margin-top: 39px;
     margin-bottom: 60px;
    
+}
+.new-item img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .hiperbola-items {
