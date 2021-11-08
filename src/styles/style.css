@@ -223,6 +223,8 @@ header:before,
     padding: 6px;
     margin-bottom: 20px;
     margin-top: -6px;
+    margin-left: 45px;
+    margin-right: -45px;
 }
 .numb {
     font-size: 64px;
@@ -293,6 +295,7 @@ header:before,
     position: relative;
     padding: 100px 0;
     background: #f5f4f0;
+    z-index: -2;
  }
  .new-items {
     display: flex;
@@ -300,12 +303,13 @@ header:before,
  }
  .new-item {
      width: 50%;
-     padding-right: 52px;
- }
-
- 
-    
-
+     margin-left: 30px;
+     padding-left: 20px;
+    }
+.new-items-2 {
+    margin-left: 45px;
+    margin-right: -45px;
+}
 
 .hiperbola-items {
     display: flex;
