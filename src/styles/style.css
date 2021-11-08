@@ -43,8 +43,9 @@ h2 {
 }
 h3 {
     font-size: 34px;
-    line-height: 40px;
+    line-height: 30px;
     font-family: 'Neucha', cursive;
+    font-weight: normal;
 }
 .yellow {
     color: #FE8A02;
@@ -115,14 +116,14 @@ header:before,
 .video-section {
     position: relative;
     height: 814px;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 .text-center {
    display: flex;
    align-content: center;
    flex-direction: column;
    text-align: center;
-   margin-top: -55px;
+   margin-top: -65px;
   
 
 }
@@ -139,7 +140,7 @@ header:before,
 }
 .image-wrap-video {
     position: absolute;
-    bottom: 108px;  
+    bottom: 23px;  
     left: 50%;
     transform: translateX(-50%);
 }
@@ -148,8 +149,9 @@ header:before,
 }
 
 .navigation-section {
-    background: #8d8c87;
-    padding: 100px 0;  
+    background: #42413C;
+    padding: 200px 0 100px 0;
+    margin-top: -112px;  
 }
 .navigation-section a {
     display: block;
@@ -168,32 +170,36 @@ header:before,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px;   
+    margin: 0 -15px;
+       
 }
 .navigation-item {
-    width: 308px;
     background: #F5F4F0;
-    min-height: 323px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center; */
+    display: block;
+    width: calc(33.33% - 30px);
+    margin: 0 15px 20px 15px;
+         
+}
+.navigation-item-wrap {
     padding: 24px;
-    margin-bottom: 20px;     
 }
 .grey {
-    background: #8d8c87;
+    background: #42413C;
     color: #fff;
-    width: 356px;
     padding: 0;
-        
 }
+
+
 .title-h2 {
     font-size: 34px;
     line-height: 40px;
     font-family: 'Neucha', cursive;
 }
 .title-h1 {
-    font-size: 52px;
+    font-size: 50px;
     line-height: 62px;
     font-family: 'Neucha', cursive;
 }
@@ -201,6 +207,7 @@ header:before,
     font-size: 24px;
     line-height: 29px;
     color: #908D8B;
+    font-weight: normal;
 }
 .title-h4 {
     font-size: 14px;
@@ -216,7 +223,7 @@ header:before,
 .numb {
     font-size: 64px;
     line-height: 1;
-    padding-bottom: 40px;
+    padding-bottom: 3px;
     font-family: 'Neucha', cursive;
 }
 .ikea-section {
