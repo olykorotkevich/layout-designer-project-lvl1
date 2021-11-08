@@ -150,7 +150,7 @@ header:before,
     position: absolute;
     bottom: 12px;  
     left: 50%;
-    transform: translateX(-45%);
+    transform: translateX(-40%);
     
 }
 .video {
