@@ -210,15 +210,16 @@ header:before,
     margin-bottom: -20px;
 }
 .title-h4 {
-    font-size: 16px;
-    font-weight:bold;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 16px;
+    letter-spacing: 0.4px;
     background: #B09A81;
-    color:#FFFFFF;
-    padding:  10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 6px;
     margin-bottom: 20px;
-    margin-top: 100px;
-
+    margin-top: -6px;
 }
 .numb {
     font-size: 64px;
@@ -241,8 +242,14 @@ header:before,
      margin: 0;   
     padding-right:53px ;
     }
-    
- }
+.ikea-container-items-2 {
+        display: flex;
+}  
+.ikea-container-item-2 {
+    width: 50%;
+    margin: 0;   
+  }
+ 
  .optimization-section,
  .hiperbola-section  {
      position: relative;
