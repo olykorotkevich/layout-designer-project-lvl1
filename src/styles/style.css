@@ -359,25 +359,58 @@ header:before,
  .plan-section {
    position: relative;
    padding: 100px 0;
+   background: #f5f4f0;
+   z-index: 2;
  }
  .plan-items {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 99px;
+    margin-top: -1px;
+    justify-content: center;
  }
- .plan-item {
-     width: 50%;
-     padding: 10px;
-     
+
+ .plan-items .plan-item:first-child {
+    margin-right: 30px;
+    margin-left: 0px;
  }
- .plan-item p {
+
+ .plan-items-2 {
+    display: flex;
+ }
+
+ .plan-item-2 {
+    width: 50%;
+    margin-left: -10px;
+    margin-top: -12px;
+
+ }
+ .plan-item-2 {
+    width: 50%;
+    margin-left: 0;
     margin-top: 0;
  }
+
+ .plan-item-2:first-child {
+     padding-right: 28px;
+ }
+
+ .plan-item p,
+ .plan-item-2 p {
+    margin-top: 0;
+ }
+
+.plan-item h2 {
+    margin-top: 39px;
+    margin-bottom: 57px;
+}
+
  .footer-top {
      color: #FFFFFF;
      background-color: #42413C;
      display: flex;
      align-items: center;
-     padding: 0 55px;
+     padding: 5px 55px 25px 55px;
+     margin-top: 104px;
 }
 .footer-top a {
     color: #FFFFFF;
@@ -386,13 +419,30 @@ header:before,
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 25px;
+}
+
+.footer-top-item h3 {
+    line-height: 36px;
+}
+
+.footer-top-item:last-child {
+    margin-left: 10px;
+}
+
+.form-title {
+    margin-left: 14px;
+    margin-top: -7px;
+    margin-bottom: 10px;
 }
 .form-input {
     padding: 15px;
     border: none;
-    max-height: 50px;
-    min-width: 423px;
+    max-height: 50px;    
+    min-width: 385px;
+    margin-left: 15px;
 }
+
 form .btn {
     position: relative;
     border: none;
@@ -405,7 +455,7 @@ form .btn:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(./images/send.svg);
+    background-image: url(../images/send.svg);
     height: 20px;
     width: 20px;
     background-size: cover;
@@ -413,10 +463,12 @@ form .btn:before {
 .rules {
     font-size: 12px;
     line-height: 19px;
+    margin-top: 9px;
+    margin-left: 15px;
 }
 .footer-bottom {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 74px;
 }
 
 .footer-bottom a {
