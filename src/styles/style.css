@@ -270,8 +270,11 @@ header:before,
  }
  .optimization-item {
      width: 50%;
-    padding-right: 20px;
+    padding-right: 23px;
  }
+ .optimization-items-2 {
+    margin-bottom: -5px;
+} 
  .optimization-section .title-h4 {
      background-color: #FFFFFF;
      color:#B09A81;
