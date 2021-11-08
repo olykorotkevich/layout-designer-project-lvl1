@@ -38,9 +38,8 @@ h1 {
 h2 {
     font-family: 'Neucha', cursive;
     font-size: 60px;
-    line-height: 5px;
     font-weight: normal;
-    padding-bottom: 17px;
+    padding-bottom: -2px;
 }
 h3 {
     font-size: 34px;
@@ -84,6 +83,10 @@ header:before,
     min-height: 470px;
     margin-bottom: -20px;
     margin-top: -3px;
+}
+.text-center h2,
+.optimization-item h2 {
+    line-height: 72px;
 }
 .image-wrap {
     position: absolute;
@@ -132,7 +135,7 @@ header:before,
 .title-text-center  {
     max-width: 100%; 
     text-align: center;
-    margin-top: -16px;
+    margin-top: -17px;
     
 }
 .text {
@@ -140,7 +143,7 @@ header:before,
 }
 .image-wrap-video {
     position: absolute;
-    bottom: 23px;  
+    bottom: 22px;  
     left: 50%;
     transform: translateX(-50%);
     
@@ -152,7 +155,7 @@ header:before,
 .navigation-section {
     background: #42413C;
     padding: 200px 0 75px 0;
-    margin-top: -112px;  
+    margin-top: -113px;  
 }
 .navigation-section a {
     display: block;
@@ -242,10 +245,12 @@ header:before,
      margin: 0;   
     padding-right:53px ;
     }
-.ikea-container-items-2 {
+.ikea-container-items-2,
+.optimization-items-2 {
         display: flex;
 }  
-.ikea-container-item-2 {
+.ikea-container-item-2,
+.optimization-item-2 {
     width: 50%;
     margin: 0;   
   }
@@ -265,7 +270,7 @@ header:before,
  }
  .optimization-item {
      width: 50%;
-     padding: 10px;
+    padding-right: 20px;
  }
  .optimization-section .title-h4 {
      background-color: #FFFFFF;
@@ -273,7 +278,12 @@ header:before,
  }
  .optimization-section .title-h3 {
         color: #D7CCC0;
+        margin-bottom: -55px;
  }
+ .optimization-section .title-h2 {
+       margin-top: -15px;
+}
+
  .new-section {
     position: relative;
     padding: 100px 0;
