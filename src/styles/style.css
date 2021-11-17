@@ -135,12 +135,12 @@ header:before,
    align-content: center;
    flex-direction: column;
    text-align: center;
-   margin-top: -53px;
+   margin-top: -55px;
 }
 .title-text-center  {
     max-width: 100%; 
     text-align: center;
-    margin-top: -19px;
+    margin-top: -17px;
     
 }
 .text {
@@ -154,13 +154,13 @@ header:before,
     
 }
 .video {
-   
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .navigation-section {
     background: #42413C;
-    padding: 200px 0 75px 0;
-    margin-top: -100px;  
+    padding: 200px 0 78px 0;
+    margin-top: -103px;  
 }
 .navigation-section a {
     display: block;
@@ -208,6 +208,7 @@ header:before,
     font-size: 50px;
     line-height: 62px;
     font-family: 'Neucha', cursive;
+    letter-spacing: 0.3px;
 }
 .title-h3 {
     font-size: 24px;
