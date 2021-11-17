@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
@@ -40,7 +41,7 @@ h1 {
   max-width: 700px;
   margin-top: 100px; 
   font-size: 72px;  
-  font-weight: 400; 
+  font-weight: 400;f 
   font-family: 'Neucha', cursive;  
   
   line-height: 86px;  
@@ -67,9 +68,9 @@ h3 {
 header {
   position: relative;
   height: 100%;
-  padding-bottom: 90px;
   z-index: -2;
-  overflow: hidden;    
+  padding-bottom: 90px;  
+  overflow: hidden;
   background: #f5f4f0;  
 }
 
@@ -177,13 +178,17 @@ header::before,
   color: #2a2626;
 }
 
+.footer-bottom a {
+    color: #1085c5;
+}
+
 .navigation-section a:hover {
   color: #ffffff;
   background-color: #fe8a02;
 }
 
 .navigation-section a:hover .yellow {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .navigation-items {
@@ -307,7 +312,7 @@ header::before,
 }
 
 .optimization-section .title-h3 {
-  color: #D7CCC0;
+  color: #d7ccc0;
   margin-bottom: -55px;
 }
 
@@ -364,13 +369,13 @@ header::before,
 }
 
 .hiperbola-section .title-h4 {
-  background-color: #FFFFFF;
-  color: #B09A81;
+  background-color: #ffffff;
+  color: #b09a81;
   margin-top: -16px;
 }
 
 .hiperbola-section .title-h3 {
-  color: #D7CCC0;
+  color: #d7ccc0;
   margin-bottom: -53px;
 }
 
@@ -433,7 +438,7 @@ header::before,
 
 .footer-top {
   color: #FFFFFF;
-  background-color: #42413C;
+  background-color: #42413c;
   display: flex;
   align-items: center;
   padding: 0 55px 25px 55px;
@@ -441,7 +446,7 @@ header::before,
 }
 
 .footer-top a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-top-item {
@@ -502,10 +507,6 @@ form .btn:before {
 .footer-bottom {
   text-align: center;
   margin-top: 77px;
-}
-
-.footer-bottom a {
-  color: #1085C5;
 }
 
 .form-group {
