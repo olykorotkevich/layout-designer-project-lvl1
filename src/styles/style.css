@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  padding: 0;   
+  padding: 0;
+  
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
@@ -24,8 +25,8 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
   padding: 12px 24px;
+  color: #fff;
   font-weight: bold;
   background-color: #fe8a02;
   line-height: 160%;
