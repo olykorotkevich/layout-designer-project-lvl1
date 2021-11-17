@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
@@ -24,12 +23,10 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 24px;
-  
+  padding: 12px 24px;  
   color: #fff;
   font-weight: bold;
-  line-height: 160%;
-  
+  line-height: 160%;  
   background-color: #fe8a02;
 }
 
@@ -41,19 +38,16 @@ a {
 
 h1 {
   max-width: 700px;
+  margin-top: 100px; 
+  font-size: 72px;  
+  font-weight: 400; 
+  font-family: 'Neucha', cursive;  
   
-  font-size: 72px;
-  
-  margin-top: 100px;  
-  font-family: 'Neucha', cursive;
-  
-  font-weight: 400;
   line-height: 86px;  
 }
 
 h2 {
   padding-bottom: -2px;
-  
   font-weight: normal;
   font-size: 60px;
   font-family: 'Neucha', cursive;
