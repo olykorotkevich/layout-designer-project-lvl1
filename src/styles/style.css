@@ -89,7 +89,7 @@ header:before,
 .header-top {
     min-height: 470px;
     margin-bottom: -20px;
-    margin-top: -3px;
+    margin-top: -20px;
 }
 .text-center h2,
 .optimization-item h2,
@@ -98,7 +98,7 @@ header:before,
 }
 .image-wrap {
     position: absolute;
-    top: 55px;
+    top: 45px;
     right: -104px;
 }
 .image-wrap img {
@@ -135,7 +135,7 @@ header:before,
    align-content: center;
    flex-direction: column;
    text-align: center;
-   margin-top: -55px;
+   margin-top: -52px;
 }
 .title-text-center  {
     max-width: 100%; 
@@ -148,9 +148,9 @@ header:before,
 }
 .image-wrap-video {
     position: absolute;
-    bottom: 12px;  
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 8px;  
+    left: 260px;
+   
     
 }
 .video {
@@ -160,7 +160,7 @@ header:before,
 .navigation-section {
     background: #42413C;
     padding: 200px 0 78px 0;
-    margin-top: -103px;  
+    margin-top: -99px;  
 }
 .navigation-section a {
     display: block;
