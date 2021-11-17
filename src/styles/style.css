@@ -150,14 +150,14 @@ header:before,
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     position: absolute;
-    bottom: 11px;  
+    bottom: 13px;  
     left: 262px;
 }
 
 .navigation-section {
     background: #42413C;
     padding: 200px 0 80px 0;
-    margin-top: -109px;  
+    margin-top: -110px;  
 }
 .navigation-section a {
     display: block;
