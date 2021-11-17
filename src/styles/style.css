@@ -148,7 +148,7 @@ header:before,
 }
 .image-wrap-video {
     position: absolute;
-    bottom: 13px;  
+    bottom: 15px;  
     left: 262px;
    
     
@@ -160,7 +160,7 @@ header:before,
 .navigation-section {
     background: #42413C;
     padding: 200px 0 80px 0;
-    margin-top: -105px;  
+    margin-top: -107px;  
 }
 .navigation-section a {
     display: block;
