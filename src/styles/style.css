@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25.6px;
@@ -27,8 +26,8 @@ a {
   padding: 12px 24px;
   color: #fff;
   font-weight: bold;
-  background-color: #fe8a02;
   line-height: 160%;
+  background-color: #fe8a02;  
 }
 
 .container {
@@ -38,12 +37,12 @@ a {
 }
 
 h1 {
-  font-size: 72px;
   max-width: 700px;
+  font-size: 72px;  
   font-family: 'Neucha', cursive;
   margin-top: 100px;
-  line-height: 86px;
   font-weight: 400;
+  line-height: 86px;  
 }
 
 h2 {
@@ -54,8 +53,8 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
   font-weight: normal;
+  font-size: 34px;  
   font-family: 'Neucha', cursive;
   line-height: 30px;  
 }
@@ -68,8 +67,8 @@ header {
   position: relative;
   height: 100%;
   padding-bottom: 90px;
-  overflow: hidden;
-  z-index: -2;  
+  z-index: -2;
+  overflow: hidden;    
   background: #f5f4f0;  
 }
 
@@ -79,27 +78,29 @@ header::before,
 .new-section::before, 
 .hiperbola-section::before, 
 .plan-section::before {
-  content: "";
   position: absolute;
+  content: "";
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   background-image: url(../images/background.png);
+  transform: translate(-50%, -50%);  
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.1;
-  height: 100%;
-  width: 100%;
   z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;  
 }
 
 .header-top {
   min-height: 470px;
-  margin-bottom: -20px;
   margin-top: -3px;
+  margin-bottom: -20px;  
 }
 
-.text-center h2, .optimization-item h2, .hiperbola-item h2 {
+.text-center h2,
+.optimization-item h2,
+.hiperbola-item h2 {
   line-height: 72px;
 }
 
@@ -172,12 +173,12 @@ header::before,
 
 .navigation-section a {
   display: block;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .navigation-section a:hover {
-  color: #FFFFFF;
-  background-color: #FE8A02;
+  color: #ffffff;
+  background-color: #fe8a02;
 }
 
 .navigation-section a:hover .yellow {
@@ -224,7 +225,7 @@ header::before,
 .title-h3 {
   font-size: 24px;
   line-height: 29px;
-  color: #908D8B;
+  color: #908d8b;
   font-weight: normal;
   font-family: 'Neucha', cursive;
   margin-bottom: -20px;
@@ -237,7 +238,7 @@ header::before,
   letter-spacing: 0.4px;
   background: #B09A81;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 6px;
   margin-bottom: 20px;
   margin-top: -9px;
@@ -281,7 +282,7 @@ header::before,
   position: relative;
   padding: 100px 0;
   color: #fff;
-  background-color: #B09A81;
+  background-color: #b09a81;
   z-index: -2;
 }
 
