@@ -145,11 +145,11 @@ header::before,
 }
 
 form .btn {
-    position: relative;
-  
-    width: 70px;
-    max-height: 50px;
-    border: none;
+  position: relative;
+
+  width: 70px;
+  max-height: 50px;
+  border: none;
 }
 
 .main .btn {
@@ -212,9 +212,9 @@ form .btn {
 }
 
 .footer-top a {
-    color: #fff;
+  color: #fff;
 }
-  
+
 .navigation-section a:hover {
   color: #fff;
 
