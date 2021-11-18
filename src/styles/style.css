@@ -93,16 +93,15 @@ header::before,
   left: 50%;
 
   z-index: -1;
-
-  background-image: url(../images/background.png);  
-
   width: 100%;
   height: 100%;
-  content: "";  
 
+  background-image: url(../images/background.png); 
   background-repeat: no-repeat;
+  background-size: cover; 
 
-  background-size: cover;
+  content: "";
+
   transform: translate(-50%, -50%);
 
   opacity: 0.1;
@@ -276,7 +275,7 @@ header::before,
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;  
+  line-height: 16px;
   letter-spacing: 0.4px;
 
   text-transform: uppercase;
@@ -294,12 +293,11 @@ header::before,
 
 .ikea-section {
   position: relative;
+  z-index: -2;
 
   padding: 100px 0;
 
-  z-index: -2;
-
-  background: #f5f4f0;  
+  background: #f5f4f0;
 }
 
 .ikea-container-items {
@@ -332,10 +330,9 @@ header::before,
 
   padding: 100px 0;
 
-  color: #fff;
-
   z-index: -2;
 
+  color: #fff;  
   background-color: #b09a81;
 }
 
@@ -355,12 +352,14 @@ header::before,
 
 .optimization-section .title-h4 {  
   color: #b09a81;
+
   background-color: #fff;
 }
 
 .optimization-section .title-h3 {
-    margin-bottom: -55px;
-    color: #d7ccc0;
+  margin-bottom: -55px;
+
+  color: #d7ccc0;
 }
 
 .optimization-section .title-h2 {
