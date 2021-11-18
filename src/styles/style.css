@@ -412,9 +412,8 @@ header::before,
 
 .hiperbola-item {
   width: 50%;
-  margin-top: -5px;
-  width: 50%;
-  margin-left: -10px;
+  margin-top: -1px;
+  margin-left: -27px;
   padding: 10px;
 }
 
@@ -453,7 +452,7 @@ header::before,
 
 .plan-items .plan-item:first-child {
   margin-right: 30px;
-  margin-left: 0;
+  margin-left: 0;  
 }
 
 .plan-items-2 {
