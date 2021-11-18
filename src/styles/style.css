@@ -392,7 +392,10 @@ header::before,
   margin-top: 39px;
   margin-bottom: 60px;
 }
-
+.hiperbola-section {
+  margin-top: 8px;
+  margin-bottom: -2px;
+}
 .hiperbola-items {
   display: flex;
   margin-bottom: 100px;
@@ -412,9 +415,11 @@ header::before,
 
 .hiperbola-item {
   width: 50%;
-  margin-top: -1px;
+  margin-top: -9px;
   margin-left: -27px;
   padding: 10px;
+  padding-left: 27px;
+  padding-right: 22px;
 }
 
 .hiperbola-section .title-h4 {
