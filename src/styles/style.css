@@ -258,14 +258,12 @@ header::before,
 }
 
 .title-h3 {
-  font-size: 24px;
-  color: #908d8b;
-  line-height: 29px;  
-  font-weight: normal;
-
   margin-bottom: -20px;
+  color: #908d8b;
+  font-weight: normal;
+  font-size: 24px;
   font-family: 'Neucha', cursive;
-  
+  line-height: 29px;  
 }
 
 .title-h4 {
